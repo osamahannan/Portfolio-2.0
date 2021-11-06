@@ -7,25 +7,27 @@ import Projects from "./Components/Projects";
 import Contact from "./Components/Contact";
 function App() {
   return (
-    <Router>
-      <Navbar />
+    <div className="App">
+      <Router>
+        <Navbar />
 
-      <Switch>
-        
-        <Route exact path = "/">
-          <Home />
-        </Route>
-        <Route exact path = "/projects">
-          <Projects />
-        </Route>
-        <Route exact path = "/blogs">
-          <Blog />
-        </Route>
-    
-      </Switch>
+        <Switch>
 
-      <Contact />
-    </Router>
+          <Route exact path="/">
+            <Home />
+          </Route>
+          <Route exact path="/projects">
+            <Projects />
+          </Route>
+          <Route exact path="/blogs">
+            <Blog />
+          </Route>
+
+        </Switch>
+
+        <Contact />
+      </Router>
+    </div>
   );
 }
 
