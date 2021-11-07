@@ -20,7 +20,7 @@ const Home = () => {
                             <time>10th October, 2021</time>
                         </small>
                         <p>
-                            It is an application that displays all the trending cryptocurrencies.
+                            It is a cryptocurrency wallet app.
                         </p>
                         <div className="tag">
                             <span>HTML</span>
@@ -28,8 +28,8 @@ const Home = () => {
                             <span>React Js</span>
                         </div>
                         <div className="button-container">
-                            <button>View Live</button>
-                            <button>View Source</button>
+                            <button className="btn view">View Live</button>
+                            <button className ="btn2">View Source</button>
                         </div>
                     </div>
                     <div className="card">
@@ -38,7 +38,7 @@ const Home = () => {
                             <time>15th September, 2021</time>
                         </small>
                         <p>
-                            This app allows you to register youself and create a profile of your own.
+                            This app allows you to create a profile of your own.
                         </p>
                         <div className="tag">
                             <span>HTML</span>
@@ -46,8 +46,8 @@ const Home = () => {
                             <span>MERN</span>
                         </div>
                         <div className="button-container">
-                            <button>View Live</button>
-                            <button>View Source</button>
+                            <button className="btn view">View Live</button>
+                            <button className ="btn2">View Source</button>
                         </div>
                     </div>
                     <div className="card">
@@ -56,7 +56,7 @@ const Home = () => {
                             <time>25th Juky, 2021</time>
                         </small>
                         <p>
-                            Tic-tac-toe is a simple, two-player game that, if played optimally by both players, will always result in a tie.
+                            It is a simple, two-player game of tic-tac-toe.
                         </p>
                         <div className="tag">
                             <span>HTML</span>
@@ -64,13 +64,13 @@ const Home = () => {
                             <span>JavaSript</span>
                         </div>
                         <div className="button-container">
-                            <button>View Live</button>
-                            <button>View Source</button>
+                            <button className="btn view">View Live</button>
+                            <button className ="btn2">View Source</button>
                         </div>
                     </div>
                 </div>
-                <div className="btn">
-                    <button>View All</button>
+                <div className="button">
+                    <button className="btn">View All</button>
                 </div>
             </div>
             <div className="blog-container">

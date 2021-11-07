@@ -54,24 +54,70 @@
 .about {
   display: flex;
   flex-direction: column;
+  margin-top: 40px;
 }
 
 .project-container {
   display: flex;
   flex-direction: column;
+  margin-top: 60px;
 }
 
 .project-card {
   display: flex;
+  justify-content: space-between;
 }
 
 .card {
   display: flex;
   flex-direction: column;
-  width: 400px;
+  width: 15.5vw;
   padding: 20px;
-  margin: 60px 20px;
-  background-color: rgb(240, 243, 243);
+  margin: 20px 0;
+  font-size: 18px;
+  background-color: rgb(225, 241, 241);
   border-radius: 16px;
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  box-shadow: 0 4px 6px 0 rgba(0, 0, 0, 0.2), 0 0px 0px 0 rgba(0, 0, 0, 0.19);
+}
+
+.button {
+  display: flex;
+  margin:auto;
+  padding: 10px;
+}
+
+.btn {
+  padding: 3px 17px;
+  background-color: rgb(30, 180, 180);
+  color: white;
+  border: none;
+  border-radius: 24px;
+  cursor: pointer;
+  font-size: 17px;
+}
+
+.view {
+  font-size: 14px;
+  margin-top: 20px;
+}
+
+.btn2 {
+  padding: 1px 15px;
+  color: black;
+  border: 2px solid rgb(27, 155, 155);
+  border-radius: 24px;
+  cursor: pointer;
+  font-size: 14px;
+  margin-left: 10px;
+}
+
+.btn2:hover {
+  color: white;
+  background-color: rgb(27, 155, 155);
+  transition: 0.3s all ease;
+}
+
+.btn:hover {
+  background-color: rgb(27, 155, 155);
+  transition: 0.3s all ease;
 }
