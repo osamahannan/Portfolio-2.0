@@ -11,8 +11,8 @@ const Home = () => {
     return (
         <div className="home">
             <div className="about">
-                <h1>Hi There!</h1>
-                <h1>I'm Osama A Front End Developer</h1>
+                <h1 className ="there">Hi there!</h1>
+                <h1 className="osama">I'm Osama <span className="developer">A Front End Developer</span></h1>
                 <p>
                     I'm currently a student in Babu Banarasi Das Institute.
                     I started learning web development out of curiosity. Now I want to pursue my career as a full(MERN) stack developer, as it's said - “If passion drives you, let reason hold the reins.”– Benjamin Franklin
