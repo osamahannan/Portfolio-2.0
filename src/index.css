@@ -48,7 +48,6 @@
 .home {
   display: flex;
   flex-direction: column;
-  border: 1px solid black;
 }
 
 .about {
@@ -57,13 +56,13 @@
   margin-top: 40px;
 }
 
-.project-container {
+.project-container, .skills {
   display: flex;
   flex-direction: column;
   margin-top: 60px;
 }
 
-.project-card {
+.project-card, .skill-card {
   display: flex;
   justify-content: space-between;
 }
@@ -120,4 +119,15 @@
 .btn:hover {
   background-color: rgb(27, 155, 155);
   transition: 0.3s all ease;
+}
+
+.image {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.image img {
+  height: 40px;
 }

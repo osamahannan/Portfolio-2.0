@@ -1,4 +1,11 @@
 import React from 'react'
+import javascript from "../Assets/javascript.png";
+import html from "../Assets/html.png";
+import java from "../Assets/java.png";
+import python from "../Assets/python.png";
+import react from "../Assets/react.png";
+import css from "../Assets/css.png";
+import github from "../Assets/github.png";
 
 const Home = () => {
     return (
@@ -29,7 +36,7 @@ const Home = () => {
                         </div>
                         <div className="button-container">
                             <button className="btn view">View Live</button>
-                            <button className ="btn2">View Source</button>
+                            <button className="btn2">View Source</button>
                         </div>
                     </div>
                     <div className="card">
@@ -47,7 +54,7 @@ const Home = () => {
                         </div>
                         <div className="button-container">
                             <button className="btn view">View Live</button>
-                            <button className ="btn2">View Source</button>
+                            <button className="btn2">View Source</button>
                         </div>
                     </div>
                     <div className="card">
@@ -65,7 +72,7 @@ const Home = () => {
                         </div>
                         <div className="button-container">
                             <button className="btn view">View Live</button>
-                            <button className ="btn2">View Source</button>
+                            <button className="btn2">View Source</button>
                         </div>
                     </div>
                 </div>
@@ -73,11 +80,39 @@ const Home = () => {
                     <button className="btn">View All</button>
                 </div>
             </div>
-            <div className="blog-container">
 
-            </div>
             <div className="skills">
-
+                <h1>My Skills</h1>
+                <div className="skill-card">
+                    <div className="image">
+                        <img src={react} alt="react" />
+                        <h4>React</h4>
+                    </div>
+                    <div className="image">
+                        <img src={javascript} alt="JavaScript" />
+                        <h4>JavaScript</h4>
+                    </div>
+                    <div className="image">
+                        <img src={html} alt="html" />
+                        <h4>HTML5</h4>
+                    </div>
+                    <div className="image">
+                        <img src={css} alt="css" />
+                        <h4>CSS3</h4>
+                    </div>
+                    <div className="image">
+                        <img src={github} alt="github" />
+                        <h4>Github</h4>
+                    </div>
+                    <div className="image">
+                        <img src={java} alt="java" />
+                        <h4>Java</h4>
+                    </div>
+                    <div className="image">
+                        <img src={python} alt="python" />
+                        <h4>Python</h4>
+                    </div>
+                </div>
             </div>
         </div>
     )
