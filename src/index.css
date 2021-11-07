@@ -68,11 +68,7 @@
 .card {
   display: flex;
   flex-direction: column;
-  /* justify-content: space-evenly; */
-  /* align-items: center; */
-  /* width: 800px; */
-  /* height: 540px; */
-  /* margin: auto; */
+  width: 400px;
   padding: 20px;
   margin: 60px 20px;
   background-color: rgb(240, 243, 243);
