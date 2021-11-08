@@ -1,4 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Baloo+Bhai+2&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Bhai+2&family=Dancing+Script:wght@700&family=Pacifico&display=swap');
+
 * {
   margin: 0;
   padding: 0;
@@ -16,9 +18,18 @@
 .navbar {
   display: flex;
   padding: 5px;
+  height: 70px;
   justify-content: space-between;
   align-items: center;
   border-bottom: 1px solid rgb(204, 201, 201);
+}
+
+.osamahannan {
+  text-decoration: none;
+  color: rgb(30, 180, 180);
+  font-size: 28px;
+  font-family: 'Dancing Script', cursive;
+  font-family: 'Pacifico', cursive;
 }
 
 .navbar ul {
@@ -31,16 +42,13 @@
 }
 
 .navbar ul li a {
-  padding: 10px;
+  padding: 5px 10px;
   text-decoration: none;
   color: rgb(138, 138, 138);
 }
 
 .navbar ul li a:hover {
   color: black;
-}
-.logo img {
-  height: 50px;
 }
 
 /* home Page */
@@ -84,10 +92,10 @@
   justify-content: space-between;
 }
 
-.card {
+.card, .card2 {
   display: flex;
   flex-direction: column;
-  width: 15.5vw;
+  width: 240px;
   padding: 20px;
   margin: 20px 0;
   font-size: 18px;
@@ -95,7 +103,6 @@
   border-radius: 16px;
   box-shadow: 0 3px 4px 0 rgba(0, 0, 0, 0.2), 0 0px 0px 0 rgba(0, 0, 0, 0.19);
 }
-
 
 .card span {
   display: flex;
@@ -108,7 +115,7 @@
   border-radius: 12px;
 }
 
-.card p {
+.card p, .card2 p {
   line-height: 25px;
   margin-top: 15px;
 }
@@ -143,6 +150,7 @@
   padding: 1px 15px;
   color: black;
   border: 2px solid rgb(27, 155, 155);
+  background-color: rgb(225, 241, 241);
   border-radius: 24px;
   cursor: pointer;
   font-size: 14px;
@@ -198,4 +206,31 @@
 .social:hover {
   color: rgb(30, 180, 180);
 }
+
+/* Project Section */
+
+.projects {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+} 
+
+.projects h1 {
+  margin-top: 50px;
+}
+
+.card2 {
+  width: 95%;
+}
+
+.project-card2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 30px;
+}
+
+
 
