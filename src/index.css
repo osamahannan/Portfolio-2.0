@@ -168,6 +168,12 @@
   transition: 0.3s all ease;
 }
 
+.resume {
+  margin-top: 15px;
+  background-color: unset;
+  font-size: 17px;
+}
+
 .image {
   display: flex;
   flex-direction: column;
@@ -226,6 +232,7 @@
 
 .card2 {
   width: 95%;
+  margin: 15px;
 }
 
 .project-card2 {
