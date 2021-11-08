@@ -1,5 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import { useMediaQuery } from "react-responsive";
 import javascript from "../Assets/javascript.png";
 import html from "../Assets/html.png";
 import java from "../Assets/java.png";
@@ -9,13 +10,15 @@ import css from "../Assets/css.png";
 import github from "../Assets/github.png";
 
 const Home = () => {
+
+  // const isTablet = useMediaQuery({ query: "(min-width: 1100px)" });
+  const isMobile = useMediaQuery({ query: "(min-width: 650px)" });
+
   return (
     <div className="home">
       <div className="about">
-        <h1 className="there">Hi there!</h1>
-        <h1 className="osama">
-          I'm Osama <span className="developer">A Front End Developer</span>
-        </h1>
+        <h1><span className ="there">Hi there!</span> {!isMobile ? <span className="osama">I'm Osama</span> : ""} </h1>
+        <h1>{isMobile ? <span className="osama">I'm Osama</span> : ""} <span className="developer">A Front End Developer</span></h1>
         <p>
           I'm currently a student in Babu Banarasi Das Institute. I started
           learning web development out of curiosity. Now I want to pursue my
@@ -70,7 +73,7 @@ const Home = () => {
               </button>
             </div>
           </div>
-          <div className="card">
+          <div className="card middle">
             <h3>MERN Register</h3>
             <small>
               <time>15th September, 2021</time>

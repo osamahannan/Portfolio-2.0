@@ -1,10 +1,10 @@
-@import url('https://fonts.googleapis.com/css2?family=Baloo+Bhai+2&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Baloo+Bhai+2&family=Dancing+Script:wght@700&family=Pacifico&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Baloo+Bhai+2&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Baloo+Bhai+2&family=Dancing+Script:wght@700&family=Pacifico&display=swap");
 
 * {
   margin: 0;
   padding: 0;
-  font-family: 'Baloo Bhai 2', cursive;
+  font-family: "Baloo Bhai 2", cursive;
 }
 
 .App {
@@ -28,8 +28,8 @@
   text-decoration: none;
   color: rgb(30, 180, 180);
   font-size: 28px;
-  font-family: 'Dancing Script', cursive;
-  font-family: 'Pacifico', cursive;
+  font-family: "Dancing Script", cursive;
+  font-family: "Pacifico", cursive;
 }
 
 .navbar ul {
@@ -61,7 +61,7 @@
 .about {
   display: flex;
   flex-direction: column;
-  margin-top: 40px;
+  margin-top: 60px;
 }
 
 .there {
@@ -81,18 +81,19 @@
   margin-top: 1rem;
 }
 
-.project-container, .skills {
+.project-container,
+.skills {
   display: flex;
   flex-direction: column;
   margin-top: 60px;
 }
 
-.project-card, .skill-card {
+.project-card {
   display: flex;
-  justify-content: space-between;
 }
 
-.card, .card2 {
+.card,
+.card2 {
   display: flex;
   flex-direction: column;
   width: 230px;
@@ -102,6 +103,10 @@
   background-color: rgb(225, 241, 241);
   border-radius: 16px;
   box-shadow: 0 3px 4px 0 rgba(0, 0, 0, 0.2), 0 0px 0px 0 rgba(0, 0, 0, 0.19);
+}
+
+.middle {
+  margin: 20px 35px;
 }
 
 .card span {
@@ -115,14 +120,24 @@
   border-radius: 12px;
 }
 
-.card p, .card2 p {
+.card p,
+.card2 p {
   line-height: 25px;
   margin-top: 15px;
 }
 
+.button-container {
+  display: flex;
+  /* justify-content: center; */
+  align-items: center;
+  flex-wrap: wrap;
+  align-items: center;
+  margin-top: 10px;
+}
+
 .button {
   display: flex;
-  margin:auto;
+  margin: auto;
   padding: 10px;
 }
 
@@ -143,7 +158,7 @@
 
 .view {
   font-size: 14px;
-  margin-top: 20px;
+  margin: 10px 10px 10px 0;
 }
 
 .btn2 {
@@ -154,7 +169,6 @@
   border-radius: 24px;
   cursor: pointer;
   font-size: 14px;
-  margin-left: 10px;
 }
 
 .btn2:hover {
@@ -178,7 +192,8 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin-top: 20px;
+  margin: 30px 20px 0 0;
+  width: 103px;
 }
 
 .image img {
@@ -193,6 +208,13 @@
   height: 13vh;
   margin-top: 60px;
   border-top: 1px solid rgb(204, 201, 201);
+}
+
+.skill-card {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
 }
 
 .copyright {
@@ -220,7 +242,7 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-} 
+}
 
 .projects h1 {
   margin-top: 50px;
@@ -243,5 +265,31 @@
   margin-top: 30px;
 }
 
+@media only screen and (max-width: 900px) {
+  .App {
+    width: unset;
+    padding: 0 20px;
+  }
+}
 
+@media only screen and (max-width: 650px) {
 
+  .about {
+    align-items: center;
+    margin-top: 30px;
+  }
+
+  .project-card {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .card {
+    width: 90%;
+  }
+
+  .middle {
+    margin: 0;
+  }
+
+}
