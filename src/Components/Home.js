@@ -11,11 +11,12 @@ const Home = () => {
     return (
         <div className="home">
             <div className="about">
-                <h1 className ="there">Hi there!</h1>
+                <h1 className="there">Hi there!</h1>
                 <h1 className="osama">I'm Osama <span className="developer">A Front End Developer</span></h1>
                 <p>
                     I'm currently a student in Babu Banarasi Das Institute.
-                    I started learning web development out of curiosity. Now I want to pursue my career as a full(MERN) stack developer, as it's said - “If passion drives you, let reason hold the reins.”– Benjamin Franklin
+                    I started learning web development out of curiosity. Now I want to pursue my career as a full (MERN) stack developer, as it's said - <br />
+                    “If passion drives you, let reason hold the reins.”– Benjamin Franklin
                 </p>
             </div>
             <div className="project-container">
@@ -29,11 +30,9 @@ const Home = () => {
                         <p>
                             It is a cryptocurrency wallet app.
                         </p>
-                        <div className="tag">
-                            <span>HTML</span>
-                            <span>CSS</span>
-                            <span>React Js</span>
-                        </div>
+
+                        <span>React Js</span>
+
                         <div className="button-container">
                             <button className="btn view">View Live</button>
                             <button className="btn2">View Source</button>
@@ -47,11 +46,9 @@ const Home = () => {
                         <p>
                             This app allows you to create a profile of your own.
                         </p>
-                        <div className="tag">
-                            <span>HTML</span>
-                            <span>CSS</span>
-                            <span>MERN</span>
-                        </div>
+
+                        <span>MERN</span>
+
                         <div className="button-container">
                             <button className="btn view">View Live</button>
                             <button className="btn2">View Source</button>
@@ -65,11 +62,9 @@ const Home = () => {
                         <p>
                             It is a simple, two-player game of tic-tac-toe.
                         </p>
-                        <div className="tag">
-                            <span>HTML</span>
-                            <span>CSS</span>
-                            <span>JavaSript</span>
-                        </div>
+
+                        <span>JavaSript</span>
+                        
                         <div className="button-container">
                             <button className="btn view">View Live</button>
                             <button className="btn2">View Source</button>
