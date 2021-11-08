@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from "react-router-dom";
 import javascript from "../Assets/javascript.png";
 import html from "../Assets/html.png";
 import java from "../Assets/java.png";
@@ -34,8 +35,8 @@ const Home = () => {
                         <span>React Js</span>
 
                         <div className="button-container">
-                            <button className="btn view">View Live</button>
-                            <button className="btn2">View Source</button>
+                            <button className="btn view"><a href="https://cryptoswitch.netlify.app/" className="anchor" target="_blank" rel="noreferrer">View Live</a></button>
+                            <button className="btn2"><a href="https://github.com/osamahannan/CryptoSwitch" className="anchor" target="_blank" rel="noreferrer">View Source</a></button>
                         </div>
                     </div>
                     <div className="card">
@@ -50,29 +51,29 @@ const Home = () => {
                         <span>MERN</span>
 
                         <div className="button-container">
-                            <button className="btn view">View Live</button>
-                            <button className="btn2">View Source</button>
+                            <button className="btn view"><a href="https://mern-osama.herokuapp.com" className="anchor" target="_blank" rel="noreferrer">View Live</a></button>
+                            <button className="btn2"><a href="https://github.com/osamahannan/MERN_Register" className="anchor" target="_blank" rel="noreferrer">View Source</a></button>
                         </div>
                     </div>
                     <div className="card">
                         <h3>Tic Tac Toe</h3>
                         <small>
-                            <time>25th Juky, 2021</time>
+                            <time>25th July, 2021</time>
                         </small>
                         <p>
                             It is a simple, two-player game of tic-tac-toe.
                         </p>
 
                         <span>JavaSript</span>
-                        
+
                         <div className="button-container">
-                            <button className="btn view">View Live</button>
-                            <button className="btn2">View Source</button>
+                            <button className="btn view"><a href="https://tic-tac-toe-carnage.netlify.app" className="anchor" target="_blank" rel="noreferrer">View Live</a></button>
+                            <button className="btn2"><a href="https://github.com/osamahannan/Tic_Tac_Toe-Game" className="anchor" target="_blank" rel="noreferrer">View Source</a></button>
                         </div>
                     </div>
                 </div>
                 <div className="button">
-                    <button className="btn">View All</button>
+                    <button className="btn"><Link className="anchor" to="/projects">View All</Link></button>
                 </div>
             </div>
 

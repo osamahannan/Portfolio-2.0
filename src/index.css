@@ -129,6 +129,11 @@
   font-size: 17px;
 }
 
+.anchor {
+  text-decoration: none;
+  color: unset;
+}
+
 .view {
   font-size: 14px;
   margin-top: 20px;
