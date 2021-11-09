@@ -1,6 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import { useMediaQuery } from "react-responsive";
+import { IoIosArrowUp } from "react-icons/io";
 import javascript from "../Assets/javascript.png";
 import html from "../Assets/html.png";
 import java from "../Assets/java.png";
@@ -12,6 +13,13 @@ import github from "../Assets/github.png";
 const Home = () => {
   // const isTablet = useMediaQuery({ query: "(min-width: 1100px)" });
   const isMobile = useMediaQuery({ query: "(min-width: 650px)" });
+
+  const scrollToTop = () =>{
+    window.scrollTo({
+      top: 0, 
+      behavior: 'smooth'
+    });
+  };
 
   return (
     <div className="home">
@@ -186,6 +194,11 @@ const Home = () => {
             <h4>Python</h4>
           </div>
         </div>
+      </div>
+
+      <div className="scroll" onClick={scrollToTop}>
+        <IoIosArrowUp className ="scrollbutton"/>
+        <span>Top</span>
       </div>
     </div>
   );

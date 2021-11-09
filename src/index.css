@@ -296,6 +296,23 @@
   margin-top: 30px;
 }
 
+.scroll {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  margin-top: 60px;
+}
+
+.scrollbutton {
+  font-size: 30px;
+}
+
+.scroll span {
+  font-size: 19px;
+}
+
 @media only screen and (max-width: 900px) {
   .App {
     width: unset;
