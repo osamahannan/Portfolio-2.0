@@ -8,6 +8,13 @@ const Navbar = () => {
   const isMobile = useMediaQuery({ query: "(max-width: 650px)" });
   const [showMenu, setShowMenu] = useState(false);
 
+  const scrollToBottom = () =>{
+    window.scrollTo({
+      top: document.documentElement.scrollHeight, 
+      behavior: 'smooth'
+    });
+  };
+
   return (
     <div className="navbar">
       <div className="logo">
@@ -29,7 +36,7 @@ const Navbar = () => {
             <Link to="/projects" onClick={() => setShowMenu(false)}> PROJECTS </Link>
           </li>
           <li>
-            <Link to="#/" onClick={() => setShowMenu(false)}> CONTACT </Link>
+            <Link to="#/" onClick={() => {setShowMenu(false); scrollToBottom();}}> CONTACT </Link>
           </li>
         </div>
       </ul>
