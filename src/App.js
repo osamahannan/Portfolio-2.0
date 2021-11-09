@@ -5,10 +5,12 @@ import Home from "./Components/Home";
 import Blog from "./Components/Blog";
 import Projects from "./Components/Projects";
 import Contact from "./Components/Contact";
+import ScrollToTop from "./Components/ScrollToTop";
 function App() {
   return (
     <div className="App">
       <Router>
+        <ScrollToTop />
         <Navbar />
 
         <Switch>
