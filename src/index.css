@@ -307,10 +307,12 @@
 
 .scrollbutton {
   font-size: 30px;
+  cursor: pointer;
 }
 
 .scroll span {
   font-size: 19px;
+  cursor: pointer;
 }
 
 @media only screen and (max-width: 900px) {

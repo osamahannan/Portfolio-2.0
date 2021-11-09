@@ -296,9 +296,9 @@ const Projects = () => {
         </div>
       </div>
 
-      <div className="scroll" onClick={scrollToTop}>
-        <IoIosArrowUp className ="scrollbutton"/>
-        <span>Top</span>
+      <div className="scroll">
+        <IoIosArrowUp className ="scrollbutton" onClick={scrollToTop}/>
+        <span onClick={scrollToTop}>Top</span>
       </div>
 
     </div>
