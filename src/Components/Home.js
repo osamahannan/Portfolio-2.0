@@ -10,15 +10,22 @@ import css from "../Assets/css.png";
 import github from "../Assets/github.png";
 
 const Home = () => {
-
   // const isTablet = useMediaQuery({ query: "(min-width: 1100px)" });
   const isMobile = useMediaQuery({ query: "(min-width: 650px)" });
 
   return (
     <div className="home">
       <div className="about">
-        <h1><span className ="there">Hi there!</span> {!isMobile ? <span className="osama">I'm Osama</span> : ""} </h1>
-        <h1>{isMobile ? <span className="osama">I'm Osama</span> : ""} <span className="developer">A Front End Developer</span></h1>
+        <div className="profile">
+          <h1>
+            <span className="there">Hi there!</span>{" "}
+            {!isMobile ? <span className="osama">I'm Osama</span> : ""}{" "}
+          </h1>
+          <h1>
+            {isMobile ? <span className="osama">I'm Osama</span> : ""}{" "}
+            <span className="developer">A Front End Developer</span>
+          </h1>
+        </div>
         <p>
           I'm currently a student in Babu Banarasi Das Institute. I started
           learning web development out of curiosity. Now I want to pursue my
