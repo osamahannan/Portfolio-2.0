@@ -51,7 +51,7 @@ const Projects = () => {
             Created an app using MERN stack. This app allows you to register
             youself and create a profile of your own. All your data is being
             stored at the backend in a database using MongoDB.You can also
-            contact and message for any query.
+            contact and message for any query. You can see it working here:
           </p>
 
           <div className="button-container">
@@ -79,7 +79,7 @@ const Projects = () => {
         </div>
 
         <div className="card2">
-          <h3>Tic Tac Toe</h3>
+          <h3>Tic Tac Toe Game</h3>
           <small>
             <time>25th July, 2021</time>
           </small>
@@ -88,7 +88,7 @@ const Projects = () => {
             game that, if played optimally by both players, will always result
             in a tie. The game is also called noughts and crosses or Xs and Os.
             A player wins a game if three marks of the same kind is connected in
-            a line.
+            a line. You can see it working here:
           </p>
 
           <div className="button-container">
@@ -122,7 +122,7 @@ const Projects = () => {
           </small>
           <p>
             Created an app using React.Js. A real time weather app which shows
-            current weather of a particular city in the world.
+            current weather of a particular city in the world. You can see it working here:
           </p>
 
           <div className="button-container">
@@ -156,7 +156,7 @@ const Projects = () => {
           </small>
           <p>
             Created an app in JavaScript. Snake game is a computer action game,
-            whose goal is to control a snake to move and collect food in a map.
+            whose goal is to control a snake to move and collect food in a map. You can see it working here:
           </p>
 
           <div className="button-container">
@@ -225,7 +225,7 @@ const Projects = () => {
           </small>
           <p>
             Created an app using HTML and CSS.It represents the various food
-            services like food orering ,catering, etc.
+            services like food orering ,catering, etc. You can see it working here:
           </p>
 
           <div className="button-container">
@@ -259,7 +259,7 @@ const Projects = () => {
           </small>
           <p>
             Created an app using HTML CSS and JavaSript. A simple analog clock
-            which represent the current time.
+            which represent the current time. You can see it working here:
           </p>
 
           <div className="button-container">
