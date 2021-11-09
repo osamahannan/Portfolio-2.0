@@ -1,6 +1,15 @@
 import React from "react";
+import { IoIosArrowUp } from "react-icons/io";
 
 const Projects = () => {
+
+  const scrollToTop = () =>{
+    window.scrollTo({
+      top: 0, 
+      behavior: 'smooth'
+    });
+  };
+
   return (
     <div className="projects">
       <h1> My <span>Projects</span> </h1>
@@ -286,6 +295,12 @@ const Projects = () => {
           </div>
         </div>
       </div>
+
+      <div className="scroll" onClick={scrollToTop}>
+        <IoIosArrowUp className ="scrollbutton"/>
+        <span>Top</span>
+      </div>
+
     </div>
   );
 };
