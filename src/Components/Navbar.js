@@ -6,7 +6,7 @@ import { useMediaQuery } from "react-responsive";
 
 const Navbar = () => {
   const isMobile = useMediaQuery({ query: "(max-width: 650px)" });
-  const [showMenu, setShowMenu] = useState(true);
+  const [showMenu, setShowMenu] = useState(false);
 
   return (
     <div className="navbar">
@@ -16,20 +16,22 @@ const Navbar = () => {
         </Link>
       </div>
 
-      {isMobile ? (<button onClick={()=>setShowMenu(!showMenu)}>
-        {showMenu ? <ImCross className="cross" /> : <GiHamburgerMenu className="hamburger" />} </button>
+      {isMobile ? (<ul>
+        {showMenu ? <ImCross className="cross" onClick={() => setShowMenu(!showMenu)} /> : <GiHamburgerMenu className="hamburger" onClick={() => setShowMenu(!showMenu)} />} </ul>
       ) : ""}
 
       <ul className={showMenu ? "hidden active" : "hidden"}>
-        <li>
-          <Link to="/" onClick={() => setShowMenu(false)}> HOME </Link>
-        </li>
-        <li>
-          <Link to="/projects" onClick={() => setShowMenu(false)}> PROJECTS </Link>
-        </li>
-        <li>
-          <Link to="#/" onClick={() => setShowMenu(false)}> CONTACT </Link>
-        </li>
+        <div className="navdiv">
+          <li>
+            <Link to="/" onClick={() => setShowMenu(false)}> HOME </Link>
+          </li>
+          <li>
+            <Link to="/projects" onClick={() => setShowMenu(false)}> PROJECTS </Link>
+          </li>
+          <li>
+            <Link to="#/" onClick={() => setShowMenu(false)}> CONTACT </Link>
+          </li>
+        </div>
       </ul>
 
     </div>

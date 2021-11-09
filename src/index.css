@@ -41,12 +41,20 @@
   flex-direction: column;
 }
 
-.hamburger {
-  font-size: 30px;
+.navdiv {
+  display: flex;
+}
+
+.hamburger, .cross {
+  font-size: 25px;
+  background-color: white;
+  border-radius: 2px;
+  padding: 3px;
 }
 
 .cross {
-  font-size: 23px;
+  font-size: 24px;
+  padding: 3px;
 }
 
 .navbar ul li {
@@ -326,6 +334,13 @@
     opacity: 1;
   }
 
+  .navdiv {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    height: 150px;
+  }
+
   .about {
     align-items: center;
     margin-top: 30px;
@@ -373,15 +388,15 @@
     left: -100%;
     top: 80px;
     height: 100%;
-    background-color: rgb(225, 241, 241);
-    width: 47%;
+    background-color: rgb(245, 245, 245);
+    width: 50%;
     transition: 0.3s all ease;
     border-radius: 0 0 15px 0;
+    padding-top: 20px;
   }
 
   .hidden a {
     font-size: 18px;
-    margin-top: 40px;
   }
 
   .hidden.active {
