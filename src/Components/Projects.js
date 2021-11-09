@@ -28,7 +28,7 @@ const Projects = () => {
           </p>
 
           <div className="button-container">
-            <button className="btn view">
+            <button className="btn view noSelect">
               <a
                 href="https://cryptoswitch.netlify.app/"
                 className="anchor"
@@ -38,7 +38,7 @@ const Projects = () => {
                 View Live
               </a>
             </button>
-            <button className="btn2">
+            <button className="btn2 noSelect">
               <a
                 href="https://github.com/osamahannan/CryptoSwitch"
                 className="anchor"
@@ -64,7 +64,7 @@ const Projects = () => {
           </p>
 
           <div className="button-container">
-            <button className="btn view">
+            <button className="btn view noSelect">
               <a
                 href="https://mern-osama.herokuapp.com"
                 className="anchor"
@@ -74,7 +74,7 @@ const Projects = () => {
                 View Live
               </a>
             </button>
-            <button className="btn2">
+            <button className="btn2 noSelect">
               <a
                 href="https://github.com/osamahannan/MERN_Register"
                 className="anchor"
@@ -101,7 +101,7 @@ const Projects = () => {
           </p>
 
           <div className="button-container">
-            <button className="btn view">
+            <button className="btn view noSelect">
               <a
                 href="https://tic-tac-toe-carnage.netlify.app"
                 className="anchor"
@@ -111,7 +111,7 @@ const Projects = () => {
                 View Live
               </a>
             </button>
-            <button className="btn2">
+            <button className="btn2 noSelect">
               <a
                 href="https://github.com/osamahannan/Tic_Tac_Toe-Game"
                 className="anchor"
@@ -135,7 +135,7 @@ const Projects = () => {
           </p>
 
           <div className="button-container">
-            <button className="btn view">
+            <button className="btn view noSelect">
               <a
                 href="https://waether-app.netlify.app/"
                 className="anchor"
@@ -145,7 +145,7 @@ const Projects = () => {
                 View Live
               </a>
             </button>
-            <button className="btn2">
+            <button className="btn2 noSelect">
               <a
                 href="https://github.com/osamahannan/React_Weather-App"
                 className="anchor"
@@ -169,7 +169,7 @@ const Projects = () => {
           </p>
 
           <div className="button-container">
-            <button className="btn view">
+            <button className="btn view noSelect">
               <a
                 href="https://snake-mania.netlify.app/"
                 className="anchor"
@@ -179,7 +179,7 @@ const Projects = () => {
                 View Live
               </a>
             </button>
-            <button className="btn2">
+            <button className="btn2 noSelect">
               <a
                 href="https://github.com/osamahannan/Snake-Game"
                 className="anchor"
@@ -204,7 +204,7 @@ const Projects = () => {
           </p>
 
           <div className="button-container">
-            <button className="btn view">
+            <button className="btn view noSelect">
               <a
                 href="https://todolist-react-carnage.netlify.app/"
                 className="anchor"
@@ -214,7 +214,7 @@ const Projects = () => {
                 View Live
               </a>
             </button>
-            <button className="btn2">
+            <button className="btn2 noSelect">
               <a
                 href="https://github.com/osamahannan/React_TodoList-App"
                 className="anchor"
@@ -238,7 +238,7 @@ const Projects = () => {
           </p>
 
           <div className="button-container">
-            <button className="btn view">
+            <button className="btn view noSelect">
               <a
                 href="https://food-delivery-carnage.netlify.app/"
                 className="anchor"
@@ -248,7 +248,7 @@ const Projects = () => {
                 View Live
               </a>
             </button>
-            <button className="btn2">
+            <button className="btn2 noSelect">
               <a
                 href="https://github.com/osamahannan/Food_Delivery-App"
                 className="anchor"
@@ -272,7 +272,7 @@ const Projects = () => {
           </p>
 
           <div className="button-container">
-            <button className="btn view">
+            <button className="btn view noSelect">
               <a
                 href="https://analog-clock-carnage.netlify.app/"
                 className="anchor"
@@ -282,7 +282,7 @@ const Projects = () => {
                 View Live
               </a>
             </button>
-            <button className="btn2">
+            <button className="btn2 noSelect">
               <a
                 href="https://github.com/osamahannan/Analoge-clock"
                 className="anchor"
@@ -297,8 +297,8 @@ const Projects = () => {
       </div>
 
       <div className="scroll">
-        <IoIosArrowUp className ="scrollbutton" onClick={scrollToTop}/>
-        <span onClick={scrollToTop}>Top</span>
+        <IoIosArrowUp className ="scrollbutton noSelect" onClick={scrollToTop}/>
+        <span onClick={scrollToTop} className ="noSelect">Top</span>
       </div>
 
     </div>

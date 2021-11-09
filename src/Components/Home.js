@@ -41,7 +41,7 @@ const Home = () => {
           “If passion drives you, let reason hold the reins.”– Benjamin Franklin
         </p>
         <div>
-          <button className="btn2 resume">
+          <button className="btn2 resume noSelect">
             <a
               href="https://drive.google.com/file/d/1bkjk-y54Nqq7xxyS_L6KeSv0dmSjPSyb/view"
               className="anchor"
@@ -66,7 +66,7 @@ const Home = () => {
             <span>React Js</span>
 
             <div className="button-container">
-              <button className="btn view">
+              <button className="btn view noSelect">
                 <a
                   href="https://cryptoswitch.netlify.app/"
                   className="anchor"
@@ -76,7 +76,7 @@ const Home = () => {
                   View Live
                 </a>
               </button>
-              <button className="btn2">
+              <button className="btn2 noSelect">
                 <a
                   href="https://github.com/osamahannan/CryptoSwitch"
                   className="anchor"
@@ -98,7 +98,7 @@ const Home = () => {
             <span>MERN</span>
 
             <div className="button-container">
-              <button className="btn view">
+              <button className="btn view noSelect">
                 <a
                   href="https://mern-osama.herokuapp.com"
                   className="anchor"
@@ -108,7 +108,7 @@ const Home = () => {
                   View Live
                 </a>
               </button>
-              <button className="btn2">
+              <button className="btn2 noSelect">
                 <a
                   href="https://github.com/osamahannan/MERN_Register"
                   className="anchor"
@@ -130,7 +130,7 @@ const Home = () => {
             <span>JavaSript</span>
 
             <div className="button-container">
-              <button className="btn view">
+              <button className="btn view noSelect">
                 <a
                   href="https://tic-tac-toe-carnage.netlify.app"
                   className="anchor"
@@ -140,7 +140,7 @@ const Home = () => {
                   View Live
                 </a>
               </button>
-              <button className="btn2">
+              <button className="btn2 noSelect">
                 <a
                   href="https://github.com/osamahannan/Tic_Tac_Toe-Game"
                   className="anchor"
@@ -154,7 +154,7 @@ const Home = () => {
           </div>
         </div>
         <div className="button">
-          <button className="btn">
+          <button className="btn noSelect">
             <Link className="anchor" to="/projects">
               View All
             </Link>
@@ -197,8 +197,8 @@ const Home = () => {
       </div>
 
       <div className="scroll">
-        <IoIosArrowUp className ="scrollbutton" onClick={scrollToTop}/>
-        <span onClick={scrollToTop}>Top</span>
+        <IoIosArrowUp className ="scrollbutton noSelect" onClick={scrollToTop}/>
+        <span onClick={scrollToTop} className="noSelect">Top</span>
       </div>
     </div>
   );

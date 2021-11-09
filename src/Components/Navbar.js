@@ -30,13 +30,13 @@ const Navbar = () => {
       <ul className={showMenu ? "hidden active" : "hidden"}>
         <div className="navdiv">
           <li>
-            <Link to="/" onClick={() => setShowMenu(false)}> HOME </Link>
+            <Link to="/" onClick={() => setShowMenu(false)} className ="noSelect"> HOME </Link>
           </li>
           <li>
-            <Link to="/projects" onClick={() => setShowMenu(false)}> PROJECTS </Link>
+            <Link to="/projects" onClick={() => setShowMenu(false)} className ="noSelect"> PROJECTS </Link>
           </li>
           <li>
-            <Link to="#/" onClick={() => {setShowMenu(false); scrollToBottom();}}> CONTACT </Link>
+            <Link to="#/" onClick={() => {setShowMenu(false); scrollToBottom();}} className ="noSelect"> CONTACT </Link>
           </li>
         </div>
       </ul>
