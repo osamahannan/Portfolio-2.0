@@ -45,16 +45,12 @@
   display: flex;
 }
 
-.hamburger, .cross {
-  font-size: 25px;
-  background-color: white;
-  border-radius: 2px;
-  padding: 3px;
+.hamburger {
+  font-size: 28px;
 }
 
 .cross {
-  font-size: 24px;
-  padding: 3px;
+  font-size: 23px;
 }
 
 .navbar ul li {
@@ -358,7 +354,7 @@
   .navbar::before {
     content: "";
     position: absolute;
-    background-color: black;
+    background-color: white;
     top: 0;
     left: 0;
     height: 100%;

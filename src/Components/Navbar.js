@@ -7,7 +7,7 @@ import { useMediaQuery } from "react-responsive";
 const Navbar = () => {
   const isMobile = useMediaQuery({ query: "(max-width: 650px)" });
   const [showMenu, setShowMenu] = useState(false);
-
+  
   const scrollToBottom = () =>{
     window.scrollTo({
       top: document.documentElement.scrollHeight, 
