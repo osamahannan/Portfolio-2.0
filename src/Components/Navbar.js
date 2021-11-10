@@ -7,10 +7,11 @@ import { useMediaQuery } from "react-responsive";
 const Navbar = () => {
   const isMobile = useMediaQuery({ query: "(max-width: 650px)" });
   const [showMenu, setShowMenu] = useState(false);
-  
-  const scrollToBottom = () =>{
+  const [showLink, setShowLink] = useState(1);
+
+  const scrollToBottom = () => {
     window.scrollTo({
-      top: document.documentElement.scrollHeight, 
+      top: document.documentElement.scrollHeight,
       behavior: 'smooth'
     });
   };
@@ -30,13 +31,13 @@ const Navbar = () => {
       <ul className={showMenu ? "hidden active" : "hidden"}>
         <div className="navdiv">
           <li>
-            <Link to="/" onClick={() => setShowMenu(false)} className ="noSelect"> HOME </Link>
+            <Link to="/" onClick={() => {setShowMenu(false); setShowLink(1);}} className={(showLink === 1) ? "noSelect active-link" : "noSelect"}> HOME </Link>
           </li>
           <li>
-            <Link to="/projects" onClick={() => setShowMenu(false)} className ="noSelect"> PROJECTS </Link>
+            <Link to="/projects" onClick={() => {setShowMenu(false); setShowLink(2);}} className={(showLink === 2) ? "noSelect active-link" : "noSelect"}> PROJECTS </Link>
           </li>
           <li>
-            <Link to="#/" onClick={() => {setShowMenu(false); scrollToBottom();}} className ="noSelect"> CONTACT </Link>
+            <Link to="#/" onClick={() => { setShowMenu(false); scrollToBottom();}} className ="noSelect"> CONTACT </Link>
           </li>
         </div>
       </ul>

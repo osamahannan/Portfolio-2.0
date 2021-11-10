@@ -64,6 +64,10 @@
   color: rgb(138, 138, 138);
 }
 
+.noSelect.active-link {
+  color: black;
+}
+
 .navbar ul li a:hover {
   color: black;
 }
