@@ -239,7 +239,7 @@ const Projects = () => {
           <div className="button-container">
             <button className="btn view noSelect">
               <a
-                href="https://carnage-quiz.netlify.app/"
+                href="https://quiz-app-osamahannan.netlify.app/"
                 className="anchor"
                 target="_blank"
                 rel="noreferrer"
