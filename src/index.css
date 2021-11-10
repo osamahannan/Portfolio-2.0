@@ -46,10 +46,12 @@
 }
 
 .hamburger {
+  margin-right: 5px;
   font-size: 28px;
 }
 
 .cross {
+  margin-right: 5px;
   font-size: 23px;
 }
 

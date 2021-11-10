@@ -43,7 +43,7 @@ const Home = () => {
         <div>
           <button className="btn2 resume noSelect">
             <a
-              href="https://drive.google.com/file/d/1bkjk-y54Nqq7xxyS_L6KeSv0dmSjPSyb/view"
+              href="https://drive.google.com/file/d/1jyTdPy0JRUy00KBGcefdpVs_3ftKjyBe/view"
               className="anchor"
               target="_blank"
               rel="noreferrer"
