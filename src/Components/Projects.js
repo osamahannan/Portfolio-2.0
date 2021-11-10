@@ -228,6 +228,72 @@ const Projects = () => {
         </div>
 
         <div className="card2">
+          <h3>Quiz App</h3>
+          <small>
+            <time>1st March, 2021</time>
+          </small>
+          <p>
+            Created an app using React.Js . It is an application which asks different types of questions based on technologies. After finishing quiz you can view your score. You can see it working here:
+          </p>
+
+          <div className="button-container">
+            <button className="btn view noSelect">
+              <a
+                href="https://carnage-quiz.netlify.app/"
+                className="anchor"
+                target="_blank"
+                rel="noreferrer"
+              >
+                View Live
+              </a>
+            </button>
+            <button className="btn2 noSelect">
+              <a
+                href="https://github.com/osamahannan/quiz-app"
+                className="anchor"
+                target="_blank"
+                rel="noreferrer"
+              >
+                View Source
+              </a>
+            </button>
+          </div>
+        </div>
+
+        <div className="card2">
+          <h3>iCoder Blog</h3>
+          <small>
+            <time>20th february, 2021</time>
+          </small>
+          <p>
+            Created an app using Bootstrap . It is an application that displays blogs according to your category like Sports, Technology, Entertainment, etc. You can see it working here:
+          </p>
+
+          <div className="button-container">
+            <button className="btn view noSelect">
+              <a
+                href="https://carnage-icoder.netlify.app/"
+                className="anchor"
+                target="_blank"
+                rel="noreferrer"
+              >
+                View Live
+              </a>
+            </button>
+            <button className="btn2 noSelect">
+              <a
+                href="https://github.com/osamahannan/iCoder-blog"
+                className="anchor"
+                target="_blank"
+                rel="noreferrer"
+              >
+                View Source
+              </a>
+            </button>
+          </div>
+        </div>
+
+        <div className="card2">
           <h3>Food Delivery App</h3>
           <small>
             <time>1st february, 2021</time>
