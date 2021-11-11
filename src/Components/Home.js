@@ -10,8 +10,7 @@ import react from "../Assets/react.png";
 import css from "../Assets/css.png";
 import github from "../Assets/github.png";
 
-const Home = () => {
-  // const isTablet = useMediaQuery({ query: "(min-width: 1100px)" });
+const Home = ({ setShowLink }) => {
   const isMobile = useMediaQuery({ query: "(min-width: 650px)" });
 
   const scrollToTop = () =>{
@@ -155,7 +154,7 @@ const Home = () => {
         </div>
         <div className="button">
           <button className="btn noSelect">
-            <Link className="anchor" to="/projects">
+            <Link className="anchor" to="/projects" onClick={() => setShowLink(2)}>
               View All
             </Link>
           </button>

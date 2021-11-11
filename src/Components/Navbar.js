@@ -4,10 +4,9 @@ import { GiHamburgerMenu } from "react-icons/gi";
 import { ImCross } from "react-icons/im";
 import { useMediaQuery } from "react-responsive";
 
-const Navbar = () => {
+const Navbar = ({showLink, setShowLink}) => {
   const isMobile = useMediaQuery({ query: "(max-width: 650px)" });
   const [showMenu, setShowMenu] = useState(false);
-  const [showLink, setShowLink] = useState(1);
 
   const scrollToBottom = () => {
     window.scrollTo({
