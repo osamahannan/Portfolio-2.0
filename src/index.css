@@ -60,6 +60,15 @@
   margin: 0 5px;
 }
 
+.li-contact {
+  color: rgb(138, 138, 138);
+  cursor: pointer;
+}
+
+.li-contact:hover {
+  color: black;
+}
+
 .navbar ul li a {
   padding: 5px 10px;
   text-decoration: none;

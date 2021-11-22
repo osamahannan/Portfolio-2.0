@@ -35,8 +35,7 @@ const Navbar = ({showLink, setShowLink}) => {
           <li>
             <Link to="/projects" onClick={() => {setShowMenu(false); setShowLink(2);}} className={(showLink === 2) ? "noSelect active-link" : "noSelect"}> PROJECTS </Link>
           </li>
-          <li>
-            <Link to="#/" onClick={() => { setShowMenu(false); scrollToBottom();}} className ="noSelect"> CONTACT </Link>
+          <li onClick={() => { setShowMenu(false); scrollToBottom();}} className ="noSelect li-contact"> CONTACT 
           </li>
         </div>
       </ul>
