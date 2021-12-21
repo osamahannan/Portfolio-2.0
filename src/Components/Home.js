@@ -13,9 +13,9 @@ import github from "../Assets/github.png";
 const Home = ({ setShowLink }) => {
   const isMobile = useMediaQuery({ query: "(min-width: 650px)" });
 
-  const scrollToTop = () =>{
+  const scrollToTop = () => {
     window.scrollTo({
-      top: 0, 
+      top: 0,
       behavior: 'smooth'
     });
   };
@@ -42,7 +42,7 @@ const Home = ({ setShowLink }) => {
         <div>
           <button className="btn2 resume noSelect">
             <a
-              href="https://drive.google.com/file/d/1rxNBoAHrKk1lRSWu7H-iUW60P2ElJJjf/view"
+              href="https://drive.google.com/file/d/1Ju1aPW74xd5nSEfITiwENyGDLn6uFRzN/view"
               className="anchor"
               target="_blank"
               rel="noreferrer"
@@ -196,7 +196,7 @@ const Home = ({ setShowLink }) => {
       </div>
 
       <div className="scroll">
-        <IoIosArrowUp className ="scrollbutton noSelect" onClick={scrollToTop}/>
+        <IoIosArrowUp className="scrollbutton noSelect" onClick={scrollToTop} />
         <span onClick={scrollToTop} className="noSelect">Top</span>
       </div>
     </div>
