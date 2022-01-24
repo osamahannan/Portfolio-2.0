@@ -90,7 +90,7 @@ export const ProjectData = [
     },
     {
         id: 1,
-        name: "Analog Clock<",
+        name: "Analog Clock",
         date: "20th January, 2021",
         description: "Created an app using HTML CSS and JavaSript. A simple analog clock which represent the current time. You can see it working here:",
         appLink: "https://analog-clock-carnage.netlify.app/",
