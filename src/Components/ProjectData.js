@@ -18,6 +18,14 @@ export const ProjectData = [
     },
     {
         id: 9,
+        name: "GoChat App",
+        date: "15th January, 2022",
+        description: "Created an app using React Js and Socket.io. It is a real time chat application through which you can chat with the other person by sharing the app link. Multiple users can also join and chat at the same time.  You can see it working here:",
+        appLink: " https://gochat-app.netlify.app/",
+        sourceLink: " https://github.com/osamahannan/gochat"
+    },
+    {
+        id: 9,
         name: "MERN Register",
         date: "15th September, 2021",
         description: "Created an app using MERN stack. This app allows you to register youself and create a profile of your own. All your data is being stored at the backend in a database using MongoDB.You can also contact and message for any query. You can see it working here:",

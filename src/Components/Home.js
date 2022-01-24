@@ -56,6 +56,38 @@ const Home = ({ setShowLink }) => {
         <h1>My Work</h1>
         <div className="project-card">
           <div className="card">
+            <h3>Cricket Annihilators</h3>
+            <small>
+              <time>10th November, 2021</time>
+            </small>
+            <p>It is an official website of our cricket organization.</p>
+
+            <span>React Js</span>
+
+            <div className="button-container">
+              <button className="btn view noSelect">
+                <a
+                  href="https://annihilators.netlify.app/"
+                  className="anchor"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  View Live
+                </a>
+              </button>
+              <button className="btn2 noSelect">
+                <a
+                  href="https://github.com/osamahannan/cricket-app"
+                  className="anchor"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  View Source
+                </a>
+              </button>
+            </div>
+          </div>
+          <div className="card middle">
             <h3>CryptoSwitch</h3>
             <small>
               <time>10th October, 2021</time>
@@ -87,51 +119,22 @@ const Home = ({ setShowLink }) => {
               </button>
             </div>
           </div>
-          <div className="card middle">
-            <h3>MERN Register</h3>
-            <small>
-              <time>15th September, 2021</time>
-            </small>
-            <p>This app allows you to create a profile of your own.</p>
-
-            <span>MERN</span>
-
-            <div className="button-container">
-              <button className="btn view noSelect">
-                <a
-                  href="https://mern-osama.herokuapp.com"
-                  className="anchor"
-                  target="_blank"
-                  rel="noreferrer"
-                >
-                  View Live
-                </a>
-              </button>
-              <button className="btn2 noSelect">
-                <a
-                  href="https://github.com/osamahannan/MERN_Register"
-                  className="anchor"
-                  target="_blank"
-                  rel="noreferrer"
-                >
-                  View Source
-                </a>
-              </button>
-            </div>
-          </div>
           <div className="card">
-            <h3>Tic Tac Toe</h3>
+            <h3>GoChat App</h3>
             <small>
-              <time>25th July, 2021</time>
+              <time>15th January, 2022</time>
             </small>
-            <p>It is a simple, two-player game of tic-tac-toe.</p>
+            <p>It is a real time chat application</p>
 
-            <span>JavaSript</span>
+            <div className="span-div">
+              <span>React Js</span>
+              <span>Socket.io</span>
+            </div>
 
             <div className="button-container">
               <button className="btn view noSelect">
                 <a
-                  href="https://tic-tac-toe-carnage.netlify.app"
+                  href="https://gochat-app.netlify.app/"
                   className="anchor"
                   target="_blank"
                   rel="noreferrer"
@@ -141,7 +144,7 @@ const Home = ({ setShowLink }) => {
               </button>
               <button className="btn2 noSelect">
                 <a
-                  href="https://github.com/osamahannan/Tic_Tac_Toe-Game"
+                  href="https://github.com/osamahannan/gochat"
                   className="anchor"
                   target="_blank"
                   rel="noreferrer"
