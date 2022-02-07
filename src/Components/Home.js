@@ -8,6 +8,10 @@ import java from "../Assets/java.png";
 import python from "../Assets/python.png";
 import react from "../Assets/react.png";
 import css from "../Assets/css.png";
+import nodejs from "../Assets/nodejs.png";
+import mongodb from "../Assets/mongodb.png";
+import express from "../Assets/expressjs.png";
+import redux from "../Assets/redux.png";
 import github from "../Assets/github.png";
 
 const Home = ({ setShowLink }) => {
@@ -182,6 +186,22 @@ const Home = ({ setShowLink }) => {
           <div className="image">
             <img src={css} alt="css" />
             <h4>CSS3</h4>
+          </div>
+          <div className="image">
+            <img src={nodejs} alt="nodejs" />
+            <h4>Node Js</h4>
+          </div>
+          <div className="image">
+            <img src={mongodb} alt="mongodb" />
+            <h4>MongoDB</h4>
+          </div>
+          <div className="image">
+            <img src={express} alt="express" />
+            <h4>Express</h4>
+          </div>
+          <div className="image">
+            <img src={redux} alt="css" />
+            <h4>Redux</h4>
           </div>
           <div className="image">
             <img src={github} alt="github" />
