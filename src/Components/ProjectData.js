@@ -5,7 +5,7 @@ export const ProjectData = [
         name: "Cricket Annihilators",
         date: "10th November, 2021",
         description: "Created an app using MERN Stack. It is an official website of our cricket organization. This application displays the information of all players in our team. This app also contains the fund section which is raised by our organization and can be viewed by only limited members of our team.You can see it working here:",
-        appLink: "https://annihilators.netlify.app/",
+        appLink: "https://annihilators-beta.netlify.app/",
         sourceLink: "https://github.com/osamahannan/cricket-app"
     },
     {
