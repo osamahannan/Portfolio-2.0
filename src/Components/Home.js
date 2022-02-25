@@ -8,9 +8,9 @@ import java from "../Assets/java.png";
 import python from "../Assets/python.png";
 import react from "../Assets/react.png";
 import css from "../Assets/css.png";
-import nodejs from "../Assets/nodejs.png";
-import mongodb from "../Assets/mongodb.png";
-import express from "../Assets/expressjs.png";
+// import nodejs from "../Assets/nodejs.png";
+// import mongodb from "../Assets/mongodb.png";
+// import express from "../Assets/expressjs.png";
 import redux from "../Assets/redux.png";
 import github from "../Assets/github.png";
 
@@ -46,7 +46,7 @@ const Home = ({ setShowLink }) => {
         <div>
           <button className="btn2 resume noSelect">
             <a
-              href="https://drive.google.com/file/d/1Fz17ucosvTESuxe0CKpYNkeMtvmU812b/view?usp=drivesdk"
+              href="https://drive.google.com/file/d/144oRL7-MBMrnCV4V_lYHVUrULhBPy_OV/view?usp=drivesdk"
               className="anchor"
               target="_blank"
               rel="noreferrer"
@@ -187,7 +187,7 @@ const Home = ({ setShowLink }) => {
             <img src={css} alt="css" />
             <h4>CSS3</h4>
           </div>
-          <div className="image">
+          {/* <div className="image">
             <img src={nodejs} alt="nodejs" />
             <h4>Node Js</h4>
           </div>
@@ -198,7 +198,7 @@ const Home = ({ setShowLink }) => {
           <div className="image">
             <img src={express} alt="express" />
             <h4>Express</h4>
-          </div>
+          </div> */}
           <div className="image">
             <img src={redux} alt="css" />
             <h4>Redux</h4>
