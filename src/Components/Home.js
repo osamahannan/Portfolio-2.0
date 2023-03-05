@@ -29,24 +29,23 @@ const Home = ({ setShowLink }) => {
       <div className="about">
         <div className="profile">
           <h1>
-            <span className="there">Hi there!</span>{" "}
-            {!isMobile ? <span className="osama">I'm Osama</span> : ""}{" "}
+            <span className="there">Hi there!</span>
+            {!isMobile ? <span className="osama">I'm Osama,</span> : ""}
           </h1>
           <h1>
-            {isMobile ? <span className="osama">I'm Osama</span> : ""}{" "}
-            <span className="developer">A Front End Developer</span>
+            {isMobile ? <span className="osama">I'm Osama, </span> : ""}
+            <span className="developer">A FrontEnd Developer</span>
           </h1>
         </div>
         <p>
-          I'm currently a student in Babu Banarasi Das Institute. I started
-          learning web development out of curiosity. Now I want to pursue my
-          career as a full (MERN) stack developer, as it's said - <br />
+          with excellent problem solving-skills and ability to perform well in a team. I started
+          learning web development out of curiosity and now working as a Frontend developer and wanted to pursue my career as a MERN stack developer, as it's said - <br />
           “If passion drives you, let reason hold the reins.”– Benjamin Franklin
         </p>
         <div>
           <button className="btn2 resume noSelect">
             <a
-              href="https://drive.google.com/file/d/144oRL7-MBMrnCV4V_lYHVUrULhBPy_OV/view?usp=drivesdk"
+              href="https://drive.google.com/file/d/1HcyxnsF5DQ64MLN6pakolXDmqXz4hUHJ/view"
               className="anchor"
               target="_blank"
               rel="noreferrer"
