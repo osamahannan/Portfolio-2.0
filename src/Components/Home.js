@@ -8,9 +8,9 @@ import java from "../Assets/java.png";
 import python from "../Assets/python.png";
 import react from "../Assets/react.png";
 import css from "../Assets/css.png";
-// import nodejs from "../Assets/nodejs.png";
-// import mongodb from "../Assets/mongodb.png";
-// import express from "../Assets/expressjs.png";
+import nodejs from "../Assets/nodejs.png";
+import mongodb from "../Assets/mongodb.png";
+import express from "../Assets/expressjs.png";
 import redux from "../Assets/redux.png";
 import github from "../Assets/github.png";
 
@@ -45,7 +45,7 @@ const Home = ({ setShowLink }) => {
         <div>
           <button className="btn2 resume noSelect">
             <a
-              href="https://drive.google.com/file/d/1HcyxnsF5DQ64MLN6pakolXDmqXz4hUHJ/view"
+              href="https://drive.google.com/file/d/1GyW9vty-1mk5zkQPM51xwZsUI6zf2AGa/view"
               className="anchor"
               target="_blank"
               rel="noreferrer"
@@ -65,12 +65,17 @@ const Home = ({ setShowLink }) => {
             </small>
             <p>It is an official website of our cricket organization.</p>
 
-            <span>React Js</span>
+            <div className="span-div">
+              <span>Mongo DB</span>
+              <span>Express</span>
+              <span>ReactJs</span>
+              <span>NodeJs</span>
+            </div>
 
             <div className="button-container">
               <button className="btn view noSelect">
                 <a
-                  href="https://annihilators.netlify.app/"
+                  href="https://beta-annihilators.netlify.app/"
                   className="anchor"
                   target="_blank"
                   rel="noreferrer"
@@ -91,18 +96,23 @@ const Home = ({ setShowLink }) => {
             </div>
           </div>
           <div className="card middle">
-            <h3>CryptoSwitch</h3>
+            <h3>Mern Register</h3>
             <small>
-              <time>10th October, 2021</time>
+              <time>15th September, 2021</time>
             </small>
-            <p>It is a cryptocurrency wallet app.</p>
+            <p>It is a User registration app implementing the login/logout functionality with user authentication.</p>
 
-            <span>React Js</span>
+            <div className="span-div">
+              <span>Mongo DB</span>
+              <span>Express</span>
+              <span>ReactJs</span>
+              <span>NodeJs</span>
+            </div>
 
             <div className="button-container">
               <button className="btn view noSelect">
                 <a
-                  href="https://cryptoswitch.netlify.app/"
+                  href="https://osama-mern-stack.netlify.app/"
                   className="anchor"
                   target="_blank"
                   rel="noreferrer"
@@ -112,7 +122,7 @@ const Home = ({ setShowLink }) => {
               </button>
               <button className="btn2 noSelect">
                 <a
-                  href="https://github.com/osamahannan/CryptoSwitch"
+                  href="https://github.com/osamahannan/MERN_Register"
                   className="anchor"
                   target="_blank"
                   rel="noreferrer"
@@ -130,14 +140,16 @@ const Home = ({ setShowLink }) => {
             <p>It is a real time chat application</p>
 
             <div className="span-div">
-              <span>React Js</span>
+              <span>Express</span>
+              <span>ReactJs</span>
+              <span>NodeJs</span>
               <span>Socket.io</span>
             </div>
 
             <div className="button-container">
               <button className="btn view noSelect">
                 <a
-                  href="https://gochat-app.netlify.app/"
+                  href="https://go-chat-app.netlify.app/"
                   className="anchor"
                   target="_blank"
                   rel="noreferrer"
@@ -186,7 +198,7 @@ const Home = ({ setShowLink }) => {
             <img src={css} alt="css" />
             <h4>CSS3</h4>
           </div>
-          {/* <div className="image">
+          <div className="image">
             <img src={nodejs} alt="nodejs" />
             <h4>Node Js</h4>
           </div>
@@ -197,7 +209,7 @@ const Home = ({ setShowLink }) => {
           <div className="image">
             <img src={express} alt="express" />
             <h4>Express</h4>
-          </div> */}
+          </div>
           <div className="image">
             <img src={redux} alt="css" />
             <h4>Redux</h4>
