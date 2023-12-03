@@ -13,6 +13,7 @@ import mongodb from "../Assets/mongodb.png";
 import express from "../Assets/expressjs.png";
 import redux from "../Assets/redux.png";
 import github from "../Assets/github.png";
+import nextjs from "../Assets/nextjs.png";
 
 const Home = ({ setShowLink }) => {
   const isMobile = useMediaQuery({ query: "(min-width: 650px)" });
@@ -45,7 +46,7 @@ const Home = ({ setShowLink }) => {
         <div>
           <button className="btn2 resume noSelect">
             <a
-              href="https://drive.google.com/file/d/1GyW9vty-1mk5zkQPM51xwZsUI6zf2AGa/view"
+              href="https://drive.google.com/file/d/1GWoFmR9Jdj8Mki5Oc4cUk01Szja0ldbn/view?usp=drivesdk"
               className="anchor"
               target="_blank"
               rel="noreferrer"
@@ -184,7 +185,7 @@ const Home = ({ setShowLink }) => {
         <div className="skill-card">
           <div className="image">
             <img src={react} alt="react" />
-            <h4>React</h4>
+            <h4>ReactJs</h4>
           </div>
           <div className="image">
             <img src={javascript} alt="JavaScript" />
@@ -199,8 +200,12 @@ const Home = ({ setShowLink }) => {
             <h4>CSS3</h4>
           </div>
           <div className="image">
+            <img src={nextjs} alt="css" />
+            <h4>NextJs</h4>
+          </div>
+          <div className="image">
             <img src={nodejs} alt="nodejs" />
-            <h4>Node Js</h4>
+            <h4>NodeJs</h4>
           </div>
           <div className="image">
             <img src={mongodb} alt="mongodb" />
