@@ -30,7 +30,7 @@ const Home = ({ setShowLink }) => {
       <div className="about">
         <div className="profile">
           <h1>
-            <span className="there">Hi there!</span>
+            <span className="there">Hi there! </span>
             {!isMobile ? <span className="osama">I'm Osama,</span> : ""}
           </h1>
           <h1>
@@ -39,14 +39,14 @@ const Home = ({ setShowLink }) => {
           </h1>
         </div>
         <p>
-          with excellent problem solving-skills and ability to perform well in a team. I started
+          An experienced frontend developer with 2+ years of expertise in React JS, Javascript, and Next.js. Proven track record of delivering high-quality, responsive web applications. Currently honing skills to create seamless user experiences and passionate about staying abreast of the latest industry trends. I started
           learning web development out of curiosity and now working as a Frontend developer and wanted to pursue my career as a MERN stack developer, as it's said - <br />
           “If passion drives you, let reason hold the reins.”– Benjamin Franklin
         </p>
         <div>
           <button className="btn2 resume noSelect">
             <a
-              href="https://drive.google.com/file/d/1GWoFmR9Jdj8Mki5Oc4cUk01Szja0ldbn/view?usp=drivesdk"
+              href="https://drive.google.com/file/d/1LV1z0LQVLM9n1YDL4JcolfUQdxkjSf-F/view?usp=drivesdk"
               className="anchor"
               target="_blank"
               rel="noreferrer"
