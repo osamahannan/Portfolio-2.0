@@ -39,7 +39,7 @@ const Home = ({ setShowLink }) => {
           </h1>
         </div>
         <p>
-          An experienced frontend developer with 2+ years of expertise in React JS, Javascript, and Next.js. Proven track record of delivering high-quality, responsive web applications. Currently honing skills to create seamless user experiences and passionate about staying abreast of the latest industry trends. I started
+          An experienced frontend developer with 3 years of expertise in React JS, Javascript, React Native and Next.js. Proven track record of delivering high-quality, responsive web applications. Currently honing skills to create seamless user experiences and passionate about staying abreast of the latest industry trends. I started
           learning web development out of curiosity and now working as a Frontend developer and wanted to pursue my career as a MERN stack developer, as it's said - <br />
           “If passion drives you, let reason hold the reins.”– Benjamin Franklin
         </p>
@@ -186,6 +186,10 @@ const Home = ({ setShowLink }) => {
           <div className="image">
             <img src={react} alt="react" />
             <h4>ReactJs</h4>
+          </div>
+          <div className="image">
+            <img src={react} alt="react" />
+            <h4>React Native</h4>
           </div>
           <div className="image">
             <img src={javascript} alt="JavaScript" />
