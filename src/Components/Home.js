@@ -39,14 +39,14 @@ const Home = ({ setShowLink }) => {
           </h1>
         </div>
         <p>
-          An experienced frontend developer with 3 years of expertise in React JS, Javascript, React Native and Next.js. Proven track record of delivering high-quality, responsive web applications. Currently honing skills to create seamless user experiences and passionate about staying abreast of the latest industry trends. I started
+          An experienced frontend developer with 3+ years of expertise in React JS, Javascript, React Native and Next.js. Proven track record of delivering high-quality, responsive web applications. Currently honing skills to create seamless user experiences and passionate about staying abreast of the latest industry trends. I started
           learning web development out of curiosity and now working as a Frontend developer and wanted to pursue my career as a MERN stack developer, as it's said - <br />
           “If passion drives you, let reason hold the reins.”– Benjamin Franklin
         </p>
         <div>
           <button className="btn2 resume noSelect">
             <a
-              href="https://drive.google.com/file/d/1LV1z0LQVLM9n1YDL4JcolfUQdxkjSf-F/view?usp=drivesdk"
+              href="https://drive.google.com/file/d/1LV1z0LQVLM9n1YDL4JcolfUQdxkjSf-F/view?usp=sharing"
               className="anchor"
               target="_blank"
               rel="noreferrer"
