@@ -37,16 +37,18 @@ const Projects = () => {
                     View Live
                   </a>
                 </button>
-                <button className="btn2 noSelect">
-                  <a
-                    href={project.sourceLink}
-                    className="anchor"
-                    target="_blank"
-                    rel="noreferrer"
-                  >
-                    View Source
-                  </a>
-                </button>
+                {project.sourceLink && (
+                  <button className="btn2 noSelect">
+                    <a
+                      href={project.sourceLink}
+                      className="anchor"
+                      target="_blank"
+                      rel="noreferrer"
+                    >
+                      View Source
+                    </a>
+                  </button>
+                )}
               </div>
             </div>
           )
