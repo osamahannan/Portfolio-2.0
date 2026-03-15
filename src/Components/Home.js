@@ -35,18 +35,19 @@ const Home = ({ setShowLink }) => {
           </h1>
           <h1>
             {isMobile ? <span className="osama">I'm Osama, </span> : ""}
-            <span className="developer">A FrontEnd Developer</span>
+            <span className="developer">A FullStack Developer</span>
           </h1>
         </div>
         <p>
-          An experienced frontend developer with 3+ years of expertise in React JS, Javascript, React Native and Next.js. Proven track record of delivering high-quality, responsive web applications. Currently honing skills to create seamless user experiences and passionate about staying abreast of the latest industry trends. I started
-          learning web development out of curiosity and now working as a Frontend developer and wanted to pursue my career as a MERN stack developer, as it's said - <br />
-          “If passion drives you, let reason hold the reins.”– Benjamin Franklin
+          Frontend-focused Full Stack (MERN) developer with 3+ years of experience building scalable web and
+          mobile applications using React, Next.js, and React Native. Experienced in developing
+          high-performance user interfaces, integrating backend APIs, and delivering responsive products with
+          strong emphasis on performance, usability, and clean architecture.
         </p>
         <div>
           <button className="btn2 resume noSelect">
             <a
-              href="https://drive.google.com/file/d/1LV1z0LQVLM9n1YDL4JcolfUQdxkjSf-F/view?usp=sharing"
+              href="https://drive.google.com/file/d/1JO73mzkOm1MyPf20xatKuK98BmJ7ixKL/view?usp=sharing"
               className="anchor"
               target="_blank"
               rel="noreferrer"
@@ -60,11 +61,38 @@ const Home = ({ setShowLink }) => {
         <h1>My Work</h1>
         <div className="project-card">
           <div className="card">
+            <h3>Appointigo</h3>
+            <small>
+              <time>10th October, 2025</time>
+            </small>
+            <p>It is an appointment booking SaaS platform that helps service businesses manage bookings.</p>
+
+            <div className="span-div">
+              <span>Mongo DB</span>
+              <span>Express</span>
+              <span>ReactJs</span>
+              <span>NodeJs</span>
+            </div>
+
+            <div className="button-container">
+              <button className="btn view noSelect">
+                <a
+                  href="https://www.appointigo.com"
+                  className="anchor"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  View Live
+                </a>
+              </button>
+            </div>
+          </div>
+          <div className="card middle">
             <h3>Cricket Annihilators</h3>
             <small>
               <time>10th November, 2021</time>
             </small>
-            <p>It is an official website of our cricket organization.</p>
+            <p>It is an official website of our cricket organization which displays all the information of players in our team.</p>
 
             <div className="span-div">
               <span>Mongo DB</span>
@@ -96,7 +124,7 @@ const Home = ({ setShowLink }) => {
               </button>
             </div>
           </div>
-          <div className="card middle">
+          <div className="card">
             <h3>Mern Register</h3>
             <small>
               <time>15th September, 2021</time>
@@ -124,43 +152,6 @@ const Home = ({ setShowLink }) => {
               <button className="btn2 noSelect">
                 <a
                   href="https://github.com/osamahannan/MERN_Register"
-                  className="anchor"
-                  target="_blank"
-                  rel="noreferrer"
-                >
-                  View Source
-                </a>
-              </button>
-            </div>
-          </div>
-          <div className="card">
-            <h3>GoChat App</h3>
-            <small>
-              <time>15th January, 2022</time>
-            </small>
-            <p>It is a real time chat application</p>
-
-            <div className="span-div">
-              <span>Express</span>
-              <span>ReactJs</span>
-              <span>NodeJs</span>
-              <span>Socket.io</span>
-            </div>
-
-            <div className="button-container">
-              <button className="btn view noSelect">
-                <a
-                  href="https://go-chat-app.netlify.app/"
-                  className="anchor"
-                  target="_blank"
-                  rel="noreferrer"
-                >
-                  View Live
-                </a>
-              </button>
-              <button className="btn2 noSelect">
-                <a
-                  href="https://github.com/osamahannan/gochat"
                   className="anchor"
                   target="_blank"
                   rel="noreferrer"
